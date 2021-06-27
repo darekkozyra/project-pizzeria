@@ -30,7 +30,7 @@ dataSource.products = {
         },
       },
     },
-  },
+  }, 
   pizza: {
     name: 'Nonna Alba\'s Pizza',
     price: 20,
