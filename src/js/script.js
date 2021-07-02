@@ -427,7 +427,12 @@
         
       const productIndex = thisCart.products.indexOf(removedProduct);
       thisCart.products.splice(productIndex, 1);
+      
+      removedProduct.dom.wrapper.classList.add('remove');
+      const result = thisCart.dom.productList.querySelector('.remove');
+      result.remove();
   
+      thisCart.update();
     }    
 
     sendOrder(){
