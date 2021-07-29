@@ -13,8 +13,8 @@ class CartProduct{
     thisCartProduct.params = menuProduct.params;
         
     thisCartProduct.getElements(element);
-    thisCartProduct.intAmountWidget();
     thisCartProduct.initActions();
+    thisCartProduct.intAmountWidget();
   }
 
   getElements(element){
