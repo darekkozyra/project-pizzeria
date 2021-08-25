@@ -48,6 +48,7 @@
         "stylelint-scss": "^3.5.4"
     },
     "dependencies": {
+        "json-server": "^0.16.3",
         "flickity": "^2.2.2",
         "rangeslider-pure": "^0.4.11"
     }
